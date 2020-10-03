@@ -4,10 +4,11 @@
 }
 
 .banner {
-    background: url(../img/banner.png) no-repeat fixed center -2px / 110%;
-    height: 958px;
+    background: url(../img/banner.png) no-repeat fixed center/ auto 110%;
+    // auto 110% 頁面縮小時，求保比例不變，讓寬度自適應高度變化
+    height: 960px;
     p {
-        line-height: 36px;
+        line-height: 42px;
     }
     a:hover {
         transform: translateY(-6px);
@@ -15,15 +16,13 @@
     }
 }
 
-h1 {
-    line-height: 94px;
-    span {
-        line-height: 42px;
-    }
+li,
+span {
+    line-height: 42px;
 }
 
 .description {
-    line-height: 35px;
+    line-height: 36px;
 }
 
 .contact {

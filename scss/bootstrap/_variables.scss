@@ -147,8 +147,7 @@ $spacers: map-merge(
     7: ($spacer * 3), //48
     8: ($spacer * 3.5), //56
     9: ($spacer * 4), //64
-    10: ($spacer * 10), //160
-    100: ($spacer * 18)
+    10: ($spacer * 10) //160
   ),
   $spacers
 );
