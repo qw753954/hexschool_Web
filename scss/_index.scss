@@ -26,6 +26,11 @@ h1 {
     line-height: 35px;
 }
 
+.works:hover img {
+    opacity: .8;
+    transition: .4s;
+}
+
 .contact {
     position: relative;
     &::after {
