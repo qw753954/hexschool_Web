@@ -3,6 +3,11 @@
     color: white;
 }
 
+li,
+span {
+    line-height: 42px;
+}
+
 .banner {
     background: url(../img/banner.png) no-repeat fixed center/ auto 110%;
     // auto 110% 頁面縮小時，求保比例不變，讓寬度自適應高度變化
@@ -12,13 +17,8 @@
     }
     a:hover {
         transform: translateY(-6px);
-        transition: .8s;
+        transition: .6s;
     }
-}
-
-li,
-span {
-    line-height: 42px;
 }
 
 .description {

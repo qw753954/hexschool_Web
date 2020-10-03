@@ -11723,6 +11723,11 @@ h3 {
   color: white;
 }
 
+li,
+span {
+  line-height: 42px;
+}
+
 .banner {
   background: url(../img/banner.png) no-repeat fixed center/auto 110%;
   height: 960px;
@@ -11732,12 +11737,7 @@ h3 {
 }
 .banner a:hover {
   transform: translateY(-6px);
-  transition: 0.8s;
-}
-
-li,
-span {
-  line-height: 42px;
+  transition: 0.6s;
 }
 
 .description {
