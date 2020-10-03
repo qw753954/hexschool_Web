@@ -1,4 +1,4 @@
-::selection{
+::selection {
     background-color: #891818;
     color: white;
 }
@@ -6,10 +6,10 @@
 .banner {
     background: url(../img/banner.png) no-repeat fixed center -2px / 110%;
     height: 958px;
-    p{
+    p {
         line-height: 36px;
     }
-    a:hover{
+    a:hover {
         transform: translateY(-6px);
         transition: .8s;
     }
@@ -22,17 +22,13 @@ h1 {
     }
 }
 
-// .headShot{
-//     box-shadow: 4px 4px 10px #ccc;
-// }
-
-.description{
+.description {
     line-height: 35px;
 }
 
-.contact{
+.contact {
     position: relative;
-    &::after{
+    &::after {
         content: '';
         position: absolute;
         display: block;
@@ -42,7 +38,7 @@ h1 {
         height: 2px;
         background-color: #fff;
     }
-    &:hover::after{
+    &:hover::after {
         right: 0;
         transition: .7s;
     }
