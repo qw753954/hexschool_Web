@@ -12106,11 +12106,6 @@ h1 span {
   line-height: 35px;
 }
 
-.works:hover img {
-  opacity: 0.78;
-  transition: 0.4s;
-}
-
 .contact {
   position: relative;
 }
