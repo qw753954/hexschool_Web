@@ -9,8 +9,7 @@ span {
 }
 
 .banner {
-    background: url(../img/banner.png) no-repeat fixed center/ auto 110%;
-    // auto 110% 頁面縮小時，求保比例不變，讓寬度自適應高度變化
+    background: url(../img/banner.png) no-repeat fixed center/ cover;
     height: 960px;
     p {
         line-height: 42px;
